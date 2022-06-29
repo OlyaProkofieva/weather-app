@@ -1,0 +1,211 @@
+body {
+  background-image: url("../images/background-img.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+input[type="text"] {
+  background-color: rgba(253, 122, 7, 0.3);
+  border: 2px solid #fd7a07;
+  border-radius: 30px;
+  width: 430px;
+  text-align: center;
+}
+
+input[type="image"] {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  padding: 1px;
+  font-size: 40px;
+  border: none;
+  background-color: #fd7a07;
+  text-align: bottom;
+  transition: all 200ms ease-in;
+}
+
+input:hover {
+  background-color: #4d6f68;
+  border: 1px solid #000;
+}
+
+p {
+  font-size: 15px;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+
+#description {
+  text-transform: capitalize;
+}
+
+#celsius,
+#fahrenheit {
+  text-decoration: none;
+  color: #fd7a07;
+}
+
+#celsius:hover,
+#fahrenheit:hover {
+  text-decoration: underline;
+}
+
+#made-by-name {
+  text-decoration: none;
+  color: #000;
+}
+
+#made-by-name:hover {
+  color: #ce4d02;
+  text-decoration: underline;
+}
+
+.weather-app {
+  max-width: 600px;
+  height: auto;
+  display: block;
+  margin: 50px auto 50px;
+  background-color: rgba(0, 0, 0, 0.35);
+  border: 2px solid rgb(27, 24, 24);
+  border-radius: 10px;
+  box-shadow: 9px 9px 5px rgba(50, 50, 50, 0.3);
+}
+
+.info-body {
+  opacity: 1;
+  padding: 10px 25px;
+}
+
+.cities {
+  text-align: center;
+  color: #fd7a07;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14.5px;
+}
+
+.ny-city:hover,
+.london-city:hover,
+.paris-city:hover,
+.kyiv-city:hover,
+.tokyo-city:hover,
+.ta-city:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.search {
+  padding: 20px;
+  text-align: center;
+}
+
+::placeholder {
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+}
+
+.search-results {
+  border-top: 2px solid #fd7a07;
+  padding-top: 10px;
+}
+
+.search-results p {
+  font-size: 23px;
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
+.current-weather {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: 2px solid #fd7a07;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  text-align: center;
+  color: #fd7a07;
+  margin: 20px auto;
+  display: block;
+}
+
+.day-temperature {
+  font-size: 90px;
+  text-align: right;
+  padding-right: 0;
+  height: 110px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+}
+
+.type-temperature {
+  font-size: 22px;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.day-image {
+  width: 100px;
+}
+
+.current-city {
+  text-align: center;
+  font-size: 35px;
+  color: #000;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.current-date {
+  text-align: center;
+  font-size: 20px;
+  color: #fd7a07;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.current-weather-details {
+  background-color: rgba(253, 122, 7, 0.5);
+  height: auto;
+  margin: 10px;
+  border: 2px solid #fd7a07;
+  outline: 2px solid #000;
+  padding: 12px;
+  line-height: 2;
+}
+
+.current-weather-details p {
+  display: inline;
+  font-size: 19px;
+  color: #000;
+  font-weight: 700;
+  font-family: "Nunito", sans-serif;
+}
+
+.current-weather-image {
+  font-size: 25px;
+  color: #000;
+  padding: 5px;
+}
+
+.week-weather {
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  color: #fd7a07;
+  border-radius: 10px;
+  font-size: 17px;
+  padding: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+}
+
+.week-image {
+  width: 70px;
+}
+
+.made-by {
+  text-align: center;
+}
