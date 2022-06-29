@@ -35,6 +35,9 @@ p {
   font-weight: 700;
   font-family: "Nunito", sans-serif;
 }
+.made-by p {
+  margin-bottom: 5px;
+}
 
 #description {
   text-transform: capitalize;
@@ -59,6 +62,15 @@ p {
 #made-by-name:hover {
   color: #ce4d02;
   text-decoration: underline;
+}
+
+#source-code {
+  color: #ce4d02;
+  text-decoration: underline;
+}
+
+#source-code:hover {
+  text-decoration: none;
 }
 
 .weather-app {
